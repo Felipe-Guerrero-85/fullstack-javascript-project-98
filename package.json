@@ -8,11 +8,14 @@
   "description": "[![Actions Status](https://github.com/Felipe-Guerrero-85/fullstack-javascript-project-98/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Felipe-Guerrero-85/fullstack-javascript-project-98/actions)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ."
   },
   "author": "Andres Felipe Guerrero",
   "license": "ISC",
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1"
   }
 }
